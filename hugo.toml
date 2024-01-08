@@ -1,22 +1,54 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'dosh blo9g'
 theme = 'PaperMod'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+[languages]
+
+  [languages.en]
+    contentDir = 'content/en/'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'dosh blog'
+    weight = 1
+    [languages.en.params]
+      subtitle = 'Reference, Tutorials, and Explanations'
+
+  [languages.ja]
+  contentDir = 'content/ja/'
+  disabled = false
+  languageCode = 'ja-JP'
+  languageDirection = 'ltr'
+  languageName = '日本語'
+  title = 'dosh blog'
+  weight = 2
+  [languages.ja.params]
+      subtitle = 'リファレンス、チュートリアル、説明'
+
+
 [params]
-  subtitle = 'The Best Widgets on Earth'
-  [params.contact]
-    email = 'info@example.org'
-    phone = '+1 202-555-1212'
+
+ [params.homeInfoParams]
+   Title = "Home"
+   #Content = ""
+ [[params.socialIcons]]
+   name = "Twitter"
+   url = "https://twitter.com/d_osh8"
+ [[params.socialIcons]]
+   name = "github"# 🪸 Welcome 🪸
+   url = "https://"
+
+
+
+
 [menus]
 [[menus.main]]
     name = 'Home'
     pageRef = '/'
     weight = 10
 [[menus.main]]
-    name = 'Products'
-    pageRef = '/products'
+    name = 'Algotrade'
+    pageRef = '/Algotrade/'
     weight = 20
-[[menus.main]]
-    name = 'Services'
-    pageRef = '/services'
-    weight = 30
