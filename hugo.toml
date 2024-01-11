@@ -37,8 +37,8 @@ defaultContentLanguageInSubdir = false
    name = "Twitter"
    url = "https://twitter.com/d_osh8"
  [[params.socialIcons]]
-   name = "github"# 🪸 Welcome 🪸
-   url = "https://"
+   name = "github"#
+   url = "https://github.com/d-osh8"
 
 
 
