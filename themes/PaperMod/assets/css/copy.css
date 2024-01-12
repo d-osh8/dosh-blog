@@ -1,0 +1,7 @@
+#copyButton {
+    display: none;
+}
+
+.code-container:hover #copyButton {
+    display: block;
+}
