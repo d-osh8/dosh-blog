@@ -1,3 +1,27 @@
+{{ $id :=  10 }}
+<div class="code-block">
+   <pre><code id="{{ $id }}">{{ .Inner | safeHTML }}</code></pre>
+   <button onclick="copyToClipboard('{{ $id }}')">Copy</button>
+</div>
+
+
+<br><br>
+<br><br>
+<br><br>
+{{ $input := `fmt.Println("Hello World!")` }}
+{{ transform.Highlight $input "go" }}
+
+{{ $input := `console.log('Hello World!');` }}
+{{ $lang := "js" }}
+{{ transform.Highlight $input $lang "lineNos=table, style=api" }}
+
+{{ $input := `echo "Hello World!"` }}
+{{ $lang := "bash" }}
+{{ $opts := dict "lineNos" "table" "style" "dracula" }}
+{{ transform.Highlight $input $lang $opts }}
+
+
+
 
 
 
@@ -6,6 +30,13 @@
      <div class="codeblock-title">{{ . }}</div>
    {{ end }}
 
+<div class="highlight">
+   <div class="code-content">
+      {{ $input := .Inner | safeHTML }}
+      {{ transform.Highlight $input "python"}} 
+   </div>
+   <button class="copy-code" onclick="copyCodeToClipboard()">Copy</button>
+</div>
 
 <div class="highlight">
    <div class="code-content">
