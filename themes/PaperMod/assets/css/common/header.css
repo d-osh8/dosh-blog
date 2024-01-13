@@ -23,8 +23,8 @@
 }
 
 .logo a {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 350;
 }
 
 .logo a img, .logo a svg {
@@ -44,6 +44,7 @@ button#theme-toggle {
 body.dark #moon {
     vertical-align: middle;
     display: none;
+    
 }
 
 body:not(.dark) #sun {
@@ -55,6 +56,7 @@ body:not(.dark) #sun {
     word-break: keep-all;
     overflow-x: auto;
     white-space: nowrap;
+    font-weight: 100;
 }
 
 #menu li + li {
@@ -62,12 +64,13 @@ body:not(.dark) #sun {
 }
 
 #menu a {
+    font-weight: 100;
     font-size: 16px;
 }
 
 #menu .active {
-    font-weight: 500;
-    border-bottom: 2px solid currentColor;
+    font-weight: 400;
+    /* border-bottom: 1.5px solid currentColor;*/
 }
 
 .lang-switch li,
@@ -76,7 +79,9 @@ body:not(.dark) #sun {
     display: inline-flex;
     margin: auto 4px;
 }
-
+.lang-switch li{
+    font-weight: 100;
+}
 .lang-switch {
     display: flex;
     flex-wrap: inherit;
@@ -84,8 +89,8 @@ body:not(.dark) #sun {
 
 .lang-switch a {
     margin: auto 3px;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 17.2px;
+    font-weight: 300;
 }
 
 .logo-switches {

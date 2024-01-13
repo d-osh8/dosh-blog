@@ -16,23 +16,23 @@ defaultContentLanguageInSubdir = false
     [languages.en.params]
       subtitle = 'Reference, Tutorials, and Explanations'
 
-  [languages.ja]
-  contentDir = 'content/ja/'
-  disabled = false
-  languageCode = 'ja-JP'
-  languageDirection = 'ltr'
-  languageName = '日本語'
-  title = 'dosh blog'
-  weight = 2
-  [languages.ja.params]
-      subtitle = 'リファレンス、チュートリアル、説明'
 
+#  [languages.ja]
+#  contentDir = 'content/ja/'
+#  disabled = false
+#  languageCode = 'ja-JP'
+#  languageDirection = 'ltr'
+#  languageName = '日本語'
+#  title = 'dosh blog'
+#  weight = 2
+#  [languages.ja.params]
+#      subtitle = 'リファレンス、チュートリアル、説明'
 
 [params]
 
  [params.homeInfoParams]
    Title = "Home"
-   #Content = ""
+   # Content = "die young"
  [[params.socialIcons]]
    name = "Twitter"
    url = "https://twitter.com/d_osh8"
