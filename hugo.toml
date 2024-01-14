@@ -32,7 +32,7 @@ defaultContentLanguageInSubdir = false
 
  [params.homeInfoParams]
    Title = "Home"
-   # Content = "die young"
+   # Content = "d"
  [[params.socialIcons]]
    name = "Twitter"
    url = "https://twitter.com/d_osh8"

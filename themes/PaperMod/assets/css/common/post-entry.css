@@ -41,11 +41,12 @@
 .post-entry {
     position: relative;
     margin-bottom: var(--gap);
-    padding: calc(var(--gap)) var(--gap) calc(var(--gap)*0.8) calc(var(--gap));
+    padding: calc(var(--gap)*0.7) calc(var(--gap)*1) calc(var(--gap)*0.8) calc(var(--gap));
     background: var(--entry);
     border-radius: var(--radius);
     transition: transform 0.1s;
     border: 1px solid var(--border);
+    
 }
 
 .post-entry:active {
@@ -59,24 +60,27 @@
 .entry-header h2 {
     font-size: 22px;
     line-height: 1.5;
-    font-weight: 350;
+    font-weight: 430;
+    opacity: 1;
 }
 
 .entry-content {
-    margin: 8px 0;
+    margin: 8px 0 0 0;
     color: var(--secondary);
     font-size: 14px;
     line-height: 1.6;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
+/* 
+    min-height: 60px; */
 }
 
 .entry-footer {
     color: var(--secondary);
     font-size: 13px;
-    padding: calc(var(--gap)*0.5) 0 0 0;
+    padding: calc(var(--gap)*0) 0 0 0;
 
 }
 
