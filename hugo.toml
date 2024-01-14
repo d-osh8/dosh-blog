@@ -33,16 +33,25 @@ defaultContentLanguageInSubdir = false
  [params.homeInfoParams]
    Title = "Home"
    #Content = "Welcome to my blog"
-#[[params.socialIcons]]
-#  name = "Twitter"
-#  url = "https://twitter.com/d_osh8"
-#[[params.socialIcons]]
-#  name = "github"#
-#  url = "https://github.com/d-osh8"
+[[params.socialIcons]]
+  name = "blog"#
+  url = "https://d-osh8.github.io/dosh-blog/"
+
+[[params.socialIcons]]
+  name = "Twitter"
+  url = "https://twitter.com/d_osh8"
+
+[[params.socialIcons]]
+  name = "youtube"#
+  url = "https://github.com/d-osh8"
+[[params.socialIcons]]
+  name = "github"#
+  url = "https://github.com/d-osh8"
 
 
-
-
+[[params.socialIcons]]
+  name = "email"#
+  url = "https://github.com/d-osh8"
 [menus]
 [[menus.main]]
     name = 'Home'
