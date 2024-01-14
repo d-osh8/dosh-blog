@@ -49,6 +49,10 @@ defaultContentLanguageInSubdir = false
     pageRef = '/'
     weight = 10
 [[menus.main]]
-    name = 'Algotrade'
+    name = 'Finance'
     pageRef = '/Algotrade/'
     weight = 20
+#[[menus.main]]
+#    name = 'Health'
+#    pageRef = '/Health/'
+#    weight = 30
