@@ -9,6 +9,7 @@
     justify-content:start;
 }
 
+
 .first-entry .entry-header {
     overflow: hidden;
     display: -webkit-box;
@@ -41,7 +42,7 @@
 .post-entry {
     position: relative;
     margin-bottom: var(--gap);
-    padding: calc(var(--gap)*0.7) calc(var(--gap)*1) calc(var(--gap)*0.8) calc(var(--gap));
+    padding: calc(var(--gap)*0.8) calc(var(--gap)) calc(var(--gap)*0.9) calc(var(--gap)*1.1);
     background: var(--entry);
     border-radius: var(--radius);
     transition: transform 0.1s;
@@ -72,7 +73,7 @@
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
 /* 
     min-height: 60px; */
 }

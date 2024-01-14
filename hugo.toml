@@ -32,13 +32,13 @@ defaultContentLanguageInSubdir = false
 
  [params.homeInfoParams]
    Title = "Home"
-   # Content = "d"
- [[params.socialIcons]]
-   name = "Twitter"
-   url = "https://twitter.com/d_osh8"
- [[params.socialIcons]]
-   name = "github"#
-   url = "https://github.com/d-osh8"
+   #Content = "Welcome to my blog"
+#[[params.socialIcons]]
+#  name = "Twitter"
+#  url = "https://twitter.com/d_osh8"
+#[[params.socialIcons]]
+#  name = "github"#
+#  url = "https://github.com/d-osh8"
 
 
 

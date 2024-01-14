@@ -6,7 +6,7 @@ description = 'spf13-vim is a cross platform distribution of vim plugins and res
 tags = ['Finance', 'ReinforcementLearning']
 +++
 
-![hogehogehoge](/posts_images/hoge.png)
+![hogehogehoge](cover.png)
 
 This is image test
 Change detected, rebuilding site.
@@ -19,5 +19,5 @@ Total in 4 ms
 
 Change detected, rebuilding site.
 2024-01-14 18:39:26.479 +0900
-Source changed WRITE         "/home/kido/Projects/2401_blog/dosh-blog/content/en/posts/2024_01_14_image/index.md"
+Source changed WRITE         "/home/kido/Projects/2401_blog/dosh-blog/content/en/posts/024_01_14_image/index.md"
 Total in 7 ms

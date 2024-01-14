@@ -63,9 +63,21 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
+
+
+
 <article class="{{ $class }}">
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+  {{- if not (.Param "hideMeta") }}
+
+
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" . -}}
+  </footer>
+  {{- end }}
+
+
   <header class="entry-header">
     <h2 class="entry-hint-parent">
       {{- .Title }}
@@ -85,8 +97,8 @@
     {{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
          {{ $cover := .Resize "200x" }}
          {{ with $cover }}
-         <div class="thubnail" style="background-image: url('{{ .Permalink }}'); background-repeat: no-repeat; height: 120px; width: 120px; border-radius: 5px; margin-top: 10px; margin-right: 10px; float: left;">
-          a    
+         <div class="thubnail" style="background-image: url('{{ .Permalink }}'); background-repeat: no-repeat; height: 120px; width: 120px; border-radius: 5px; margin-top: 12px; margin-right: 22px; float: left;">
+          
           <!-- <img src="{{ .Permalink }}"/>    -->
             </div>   
          {{ end }}
@@ -95,15 +107,19 @@
 
 
   {{- if (ne (.Param "hideSummary") true) }}
-  <div class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape  | truncate 950 }}{{ if .Truncated }}...{{ end }}</p>
+  <div class="entry-content" style="margin-top: 10px;">
+    <p>{{ .Summary | plainify | htmlUnescape  | truncate 650 }}{{ if .Truncated }}...{{ end }}</p>
   </div>
   {{ with .Params.tags }}
-  <ul class="tags" style="padding-top: 4px; padding-bottom: 3px;  ">
+  <div class="tags" style="padding-top: 8px; padding-bottom: 0px;     overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; ">
       {{ range . }}
-      <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}" style="opacity: 0.7; font-size: 14px; padding-right: 20px; "># {{ . }}</a>
+    <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}" style="opacity: 0.7; font-size: 14px; padding-right: 20px; position:relative; z-index:2;"># {{ . }}</a>
       {{ end }}
-  </ul>
+
+</div>
   {{ end }}
   <!-- <div class="entry-content">
     <p>{{ .Description | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
@@ -113,11 +129,7 @@
   </div> -->
   {{- end }}
   
-  {{- if not (.Param "hideMeta") }}
-  <footer class="entry-footer">
-    {{- partial "post_meta.html" . -}}
-  </footer>
-  {{- end }}
+
   
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
