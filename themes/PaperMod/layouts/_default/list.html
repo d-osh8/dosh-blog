@@ -95,7 +95,7 @@
 
   {{ with .Resources }}
     {{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
-         {{ $cover := .Resize "200x" }}
+         {{ $cover := .Fill "120x120 Center" }}
          {{ with $cover }}
          <div class="thubnail" style="background-image: url('{{ .Permalink }}'); background-repeat: no-repeat; height: 120px; width: 120px; border-radius: 5px; margin-top: 12px; margin-right: 22px; float: left;">
           

@@ -4,7 +4,11 @@ date = 2024-01-15T01:11:48+09:00
 draft = false
 tags = ['polars']
 +++
-![hogehogehoge](cover.jpg)
+<!-- 
+{{< showimg >}}
+cover2.jpg
+{{< /showimg >}} -->
+<!-- ![hogehogehoge](cover2.jpg) -->
 ### Print DataFrame without omitting
 
 {{< highlight go >}}

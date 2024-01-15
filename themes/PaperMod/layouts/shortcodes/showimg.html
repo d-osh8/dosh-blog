@@ -1,0 +1,17 @@
+{{ $input := trim .Inner "\r\n" }}
+
+{{ with .Page.Resources.GetMatch $input }}
+   {{ $width := .Width }}
+   {{ $height := .Height }}
+
+   {{ $height := div $width 2 }}
+   {{ $wxh := printf "%dx%d Center" $width $height }}
+
+   {{ $croppedImage := .Fill $wxh }}
+   <img src="{{ $croppedImage.RelPermalink }}" alt="Cropped image">
+{{ end }}
+
+<!-- {{ with .Page.Resources.GetMatch $input }}
+   {{ $croppedImage := .Fill "120x1200 Center" }}
+   <img src="{{ $croppedImage.RelPermalink }}" alt="Cropped image">
+{{ end }} -->
