@@ -38,19 +38,29 @@
 
 
 
-  {{ with .Page.Resources.GetMatch "cover.jpg" }}
-   {{ $width := .Width }}
-   {{ $height := .Height }}
 
-   {{ $height := div $width 2 }}
-   {{ $wxh := printf "%dx%d Center" $width $height }}
 
-   {{ $croppedImage := .Fill $wxh }}
-   <img src="{{ $croppedImage.RelPermalink }}" alt="Cropped image" style="border-radius: 15px;">
+
+{{ $head_image := .Resources.GetMatch "head.jpg" }}
+
+{{ if  $head_image }}
+      {{ $width := $head_image.Width }}
+      {{ $height := $head_image.Height }}
+      {{ $height := div $width 2 }}
+      {{ $wxh := printf "%dx%d Center" $width $height }}
+      {{ $croppedImage := $head_image.Fill $wxh }}
+      <img src="{{ $croppedImage.RelPermalink }}" alt="Cropped image" style="border-radius: 15px;">
+{{ else }}
+  {{ $head_image := .Resources.GetMatch "cover.jpg" }} 
+    {{ if  ($head_image) }}
+      {{ $width := $head_image.Width }}
+      {{ $height := $head_image.Height }}
+      {{ $height := div $width 2 }}
+      {{ $wxh := printf "%dx%d Center" $width $height }}
+      {{ $croppedImage := $head_image.Fill $wxh }}
+      <img src="{{ $croppedImage.RelPermalink }}" alt="Cropped image" style="border-radius: 15px;">
+    {{ end }}
 {{ end }}
-
-
-
 
 
 
