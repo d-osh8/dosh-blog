@@ -95,13 +95,15 @@
 
   {{ with .Resources }}
     {{ with .GetMatch "{cover.*}" }}
-         {{ $cover := .Resize "120x120 Center" }}
-         {{ with $cover }}
-         <div class="thubnail" style="background-image: url('{{ .Permalink }}'); background-repeat: no-repeat; height: 120px; width: 120px; border-radius: 5px; margin-top: 12px; margin-right: 22px; float: left;">
+          {{ $cover := .Resize "120x120 Center q100" }}
+         {{ $cover_2x := .Resize "240x240 Center q100" }}
+         {{ $cover_3x := .Resize "360x360 Center q100" }}
+         <!-- {{ with $cover }} -->
+         <!-- <div class="thubnail" style="background-image: url('{{ .Permalink }}'); background-repeat: no-repeat; height: 240px; width: 240px; border-radius: 5px; margin-top: 12px; margin-right: 22px; float: left; max-width: 100%;"> -->
           
-          <!-- <img src="{{ .Permalink }}"/>    -->
+          <img srcset="{{ $cover_2x.Permalink }} 2x, {{ $cover_3x.Permalink }} 3x" src="{{ $cover.Permalink }}"   style="max-width: 100%; float: left;  border-radius: 5px; margin-top: 12px; margin-right: 22px; float: left; max-width: 100%;">   
             </div>   
-         {{ end }}
+         <!-- {{ end }} -->
     {{ end }}
   {{ end }}
 
