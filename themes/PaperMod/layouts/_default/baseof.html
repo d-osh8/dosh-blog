@@ -6,6 +6,17 @@
 <html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
 
 <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage</title>
+    <style>
+        body {
+            display: none; /* Initially hide the body content */
+        }
+    </style>
+
+
     {{- partial "head.html" . }}
 </head>
 
@@ -22,6 +33,15 @@
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+
+    <script>
+        // Wait for the page to fully load
+        // load
+        window.addEventListener('load', function () {
+            // Display the body content after the page has loaded
+            document.body.style.display = 'block';
+        });
+    </script>
 </body>
 
 </html>
