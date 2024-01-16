@@ -3,7 +3,7 @@ title = 'The convergence of the iteration of optimal bellman equation'
 date = 2024-01-15T01:24:48+09:00
 draft = false
 description = ''
-tags = ['ReinforcementLearning', 'FunctionalAnalysis']
+tags = ['Functional Analysis', 'Reinforcement Learning', ]
 +++
 <!-- 
 {{< showimg >}}

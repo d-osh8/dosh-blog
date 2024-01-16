@@ -49,7 +49,7 @@
       {{ $height := div $width 2 }}
       {{ $wxh := printf "%dx%d Center" $width $height }}
       {{ $croppedImage := $head_image.Fill $wxh }}
-      <img src="{{ $croppedImage.RelPermalink }}" alt="Cropped image" style="border-radius: 15px;">
+      <img src="{{ $croppedImage.RelPermalink }}" alt="Cropped image" loading="eager" style="border-radius: 15px;">
 {{ else }}
   {{ $head_image := .Resources.GetMatch "cover.jpg" }} 
     {{ if  ($head_image) }}
@@ -58,7 +58,7 @@
       {{ $height := div $width 2 }}
       {{ $wxh := printf "%dx%d Center" $width $height }}
       {{ $croppedImage := $head_image.Fill $wxh }}
-      <img src="{{ $croppedImage.RelPermalink }}" alt="Cropped image" style="border-radius: 15px;">
+      <img src="{{ $croppedImage.RelPermalink }}" alt="Cropped image" loading="eager" style="border-radius: 15px;">
     {{ end }}
 {{ end }}
 
