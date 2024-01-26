@@ -1,7 +1,8 @@
 +++
 title = 'How to set msi mystic light rgb'
-date = 2024-01-12T00:23:48+09:00
+date = 2024-01-10T00:23:48+09:00
 draft = false
+Tags = ["PC"]
 +++
 
 ### 1. Download MSI Center

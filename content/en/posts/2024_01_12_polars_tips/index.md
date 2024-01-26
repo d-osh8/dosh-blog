@@ -1,6 +1,6 @@
 +++
 title = 'Polars tips'
-date = 2024-01-15T01:11:48+09:00
+date = 2024-01-21T01:11:48+09:00
 draft = false
 tags = ['polars']
 +++

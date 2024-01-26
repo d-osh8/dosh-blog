@@ -1,6 +1,6 @@
 +++
 title = 'The convergence of the iteration of optimal bellman equation'
-date = 2024-01-15T01:24:48+09:00
+date = 2024-01-25T01:24:48+09:00
 draft = false
 description = ''
 tags = ['Functional Analysis', 'Reinforcement Learning', ]
@@ -11,8 +11,9 @@ cover.jpg
 {{< /showimg >}} -->
 
 
-
+{{< br >}}{{< /br >}}
 Bellman equation plays a vital role in reinforcement learning.
+{{< br >}}{{< /br >}}
 {{< mathjax >}}
 $$ E=mc^2 $$
 $$ \frac{1}{2} \cdot (x + y) $$

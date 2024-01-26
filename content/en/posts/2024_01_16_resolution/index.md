@@ -1,6 +1,6 @@
 +++
 title = ' Unveiling the Three Dimensions of "Resolution"'
-date = 2024-01-16T00:24:48+09:00
+date = 2024-01-22T00:15:48+09:00
 draft = false
 description = ''
 tags = ['English']

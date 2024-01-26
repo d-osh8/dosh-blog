@@ -1,7 +1,8 @@
 +++
 title = 'How to delete the contributor and its history from Github'
-date = 2024-01-13T00:07:48+09:00
+date = 2024-01-22T00:07:48+09:00
 draft = false
+Tags = ["git", "github"]
 +++
 
 ### Change the author of your local repository 

@@ -1,6 +1,6 @@
 +++
 title = 'Polars tips'
-date = 2024-01-10T02:11:48+09:00
+date = 2021-01-10T02:11:48+09:00
 draft = false
 +++
 ### Print DataFrame without omitting
