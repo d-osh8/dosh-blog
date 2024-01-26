@@ -1,0 +1,31 @@
+@media screen and (max-width: 500px) {
+.first-entry .entry-header h1 {
+    line-height: 1.2;
+    font-weight: 240;
+}
+/* #menu a {
+    font-weight: 377;
+    font-size: 16px;
+}
+
+#menu .active {
+    font-weight: 377;
+    border-bottom: 1.2px solid currentColor;
+}
+.social-icons a svg {
+    height: 22px;
+    width: 22px;
+    stroke-width: 1.6;
+}
+
+.logo a {
+    font-size: 22px;
+    font-weight: 380;
+}
+#moon {
+    stroke-width: 1.7;
+}
+#sun {
+    stroke-width: 1.7;
+} */
+}
