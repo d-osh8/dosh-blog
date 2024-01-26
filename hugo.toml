@@ -32,7 +32,7 @@ defaultContentLanguageInSubdir = false
 
  [params.homeInfoParams]
    Title = "Home"
-   #Content = "Welcome to my blog"
+   Content = "Documenting only what I might revisit later."
 [[params.socialIcons]]
   name = "blog"#
   url = "https://d-osh8.github.io/dosh-blog/"
