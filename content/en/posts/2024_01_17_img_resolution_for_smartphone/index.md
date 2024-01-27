@@ -1,6 +1,6 @@
 +++
 title = 'Set high resolution images for smart phone'
-date = 2024-01-17T00:00:48+09:00
+date = 2024-01-03T00:00:48+09:00
 draft = false
 description = ''
 tags = ['hugo', 'html', 'css']

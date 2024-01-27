@@ -1,6 +1,6 @@
 +++
 title = 'This is a image test for visual formatting'
-date = 2024-01-27T00:00:48+09:00
+date = 2024-01-20T00:00:48+09:00
 draft = false
 description = ''
 tags = ['Finance', 'RL', "Math"]
