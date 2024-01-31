@@ -19,11 +19,11 @@ with pl.Config(tbl_rows=1, tbl_cols=100):
 
 {{< codeblock >}}
 with pl.Config(tbl_rows=1, tbl_cols=100):
-   print(df1)
-   print(df2)
-   print(df1)
-   
-   print(df2)
+   print(df)
+{{< /codeblock >}}
+
+{{< codeblock >}}
+df = df.unique(subset=["datetime"])
 {{< /codeblock >}}
 
 polars
