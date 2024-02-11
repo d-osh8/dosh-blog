@@ -31,31 +31,32 @@ $$$$
 
 {{< mathjax >}}
 
-$$\begin{flalign} 
+\begin{flalign} 
 &V_{k}:\text{Value function after } k \text{ th iteration.}\
 &
-\end{flalign}$$
+\end{flalign}
 
-$$\begin{flalign} 
+\begin{flalign} 
 & \pi : \text{Policy. The probability of performing action } a \text{ under state } s. \
 &
- \end{flalign}$$
+ \end{flalign}
 
-$$\begin{flalign} 
+\begin{flalign} 
 & p: \text{Probability of the next state } s' \text{ under state } s \text{ and action } a.
 &
-\end{flalign}$$
+\end{flalign}
 
-$$\begin{flalign} 
+\begin{flalign} 
 & r: \text{Return under the state s, action a, and next state s'.}\
 &
-\end{flalign}$$
+\end{flalign}
 
 {{< /mathjax >}}
 {{< br >}}{{< /br >}}
 
 
 {{< br >}}{{< /br >}}
+\\( r \\) : Return under the state \\( s \\), action \\( a \\), and next state \\( s' \\).{{< br >}}{{< /br >}}
 By iterating this update, it has been proven to converge to the true value function \\( v_{\pi}(s) \\) under policy \\( \pi \\).
 
 <!-- この更新を繰り返せば方策πのもとでの真の価値関数vπ(s)に収束することが証明されている。 -->

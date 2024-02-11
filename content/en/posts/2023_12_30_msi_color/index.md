@@ -5,7 +5,7 @@ draft = false
 Tags = ["PC"]
 +++
 
-
+If you use msi as your computer, you can change the color setting as follow it.
 ### Download MSI Center
 https://www.msi.com/Landing/mystic-light-rgb-gaming-pc/download
 
@@ -13,6 +13,7 @@ https://www.msi.com/Landing/mystic-light-rgb-gaming-pc/download
 ### Install Mystic Light from feature set
 ![Image alt](images/img0.jpg)
 You can select color and style as you like.
-{{< showimg >}}
-images/img1.jpg
-{{< /showimg >}}
+Of course, you can always turn off light.
+<!-- {{< showimg >}}
+images/img1.jpg　same resolution
+{{< /showimg >}} -->

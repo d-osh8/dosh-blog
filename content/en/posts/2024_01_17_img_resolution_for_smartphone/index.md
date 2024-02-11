@@ -7,7 +7,10 @@ tags = ['hugo', 'html', 'css']
 +++
 {{< br >}}
 {{< /br >}}
-hugo example in this blog
+When you want to put side images in your blog.
+{{< br >}}
+{{< /br >}}
+Below is my hugo example in this blog.
 {{< codeblock >}}
 {{ $cover := .Fill "120x120 Center q100" }}
 {{ $cover_2x := .Fill "240x240 Center q100" }}
