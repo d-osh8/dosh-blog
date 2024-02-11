@@ -34,4 +34,5 @@ df.loc[target < -1000, 'MCOverrides'] = 'red'
 mco = df['MCOverrides'].values
 mpf.plot(df,volume=False,type='candle',style='yahoo',marketcolor_overrides=mco,figscale=1.4)
 {{< /codeblock >}}
+output image
 ![Image alt](images/chart1.jpg)
