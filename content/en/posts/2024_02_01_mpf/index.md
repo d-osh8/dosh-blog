@@ -36,3 +36,7 @@ mpf.plot(df,volume=False,type='candle',style='yahoo',marketcolor_overrides=mco,f
 {{< /codeblock >}}
 output image
 ![Image alt](images/chart1.jpg)
+
+{{< showimg >}}
+images/chart1.jpg
+{{< /showimg>}}

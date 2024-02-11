@@ -5,28 +5,14 @@ draft = false
 Tags = ["PC"]
 +++
 
-### 1. Download MSI Center
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    https://www.msi.com/Landing/mystic-light-rgb-gaming-pc/download
 
-
-### 2. Install Mystic Light from feature set
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    You can select color and style as you like.
-1. First item
-2. Second item
-3. Third item
-    1. Indented item
-    2. Indented item
-4. Fourth item
-
-1. First item
-2. Second item
-3. Third item
-   - Indented item
-   - Indented item
-4. Fourth item
 ### Download MSI Center
 https://www.msi.com/Landing/mystic-light-rgb-gaming-pc/download
 
 
 ### Install Mystic Light from feature set
+![Image alt](images/img0.jpg)
 You can select color and style as you like.
+{{< showimg >}}
+images/img1.jpg
+{{< /showimg >}}
