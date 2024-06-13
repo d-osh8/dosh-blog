@@ -20,7 +20,12 @@
 .post-title.entry-hint-parent{
     padding-bottom: 1px;
 }
-/* #menu a {
+p {
+    font-size: 17px; 
+}
+/*
+p -> 18px
+#menu a {
     font-weight: 377;
     font-size: 16px;
 }
