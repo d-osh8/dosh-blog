@@ -36,7 +36,31 @@ Object function   \\( J(\theta)\\) is the expected return of a policy parameteri
 \\( \tau∼p_\theta(\tau) \\) means that the trajectory 
 \\( \tau \\) is sampled from the distribution 
 \\( p_\theta(\tau) \\).
-
+How to update the policy parameters \\( \theta \\) ?
+First, we take the derivative of \\( J(\theta)\\)
+$$
+\nabla_\theta \ J(\theta) 
+= \nabla_\theta \ E_{\tau ∼p_\theta(\tau)} \left[ \sum_{t}r(s_t, a_t) \right]
+$$
+$$
+= \nabla_\theta \ E_{\tau ∼p_\theta(\tau)} \left[ r(\tau) \right]
+$$
+$$
+= \nabla_\theta \displaystyle \int p_\theta(\tau) \ r(\tau)d\tau
+$$
+$$
+= \displaystyle \int \nabla_\theta \ p_\theta(\tau) \ r(\tau)d\tau
+$$
+$$
+= \displaystyle \int p_\theta(\tau) \frac{\nabla_\theta \ p_\theta(\tau)}{p_\theta(\tau)} \ r(\tau)d\tau
+$$
+$$
+= \displaystyle \int p_\theta(\tau) 
+\ \nabla_\theta \log p_\theta(\tau) \ r(\tau)d\tau
+$$
+$$
+= E_{\tau ∼p_\theta(\tau)} \left[ \nabla_\theta \log p_\theta(\tau) \ r(\tau) \right]
+$$
 <!--
 {{< br >}}{{< /br >}}{{< br >}}{{< /br >}}{{< br >}}{{< /br >}}
 {{< mathjax >}}
