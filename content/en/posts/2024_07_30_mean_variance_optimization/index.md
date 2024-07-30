@@ -10,6 +10,8 @@ cover2.jpg
 {{< /showimg >}} -->
 <!-- ![hogehogehoge](cover2.jpg) -->
 
+Mean Variance Optimization (MVO) is a well-established but rigorous technique used in managing financial portfolios. However, the covariance calculated by MVO often contains estimation errors. To address this, the Ledoit-Wolf Shrinkage operator is frequently recommended. This approach is used as a baseline in this paper(https://icaps23.icaps-conference.org/papers/finplan/FinPlan23_paper_4.pdf) First, I will explain Mean Variance Optimization, and then I will discuss the Ledoit-Wolf Shrinkage operator, which is an improved version of MVO.
+
 ### Minimize risks(variances) by given returns
 {{< codeblock >}}
 import numpy as np
@@ -71,6 +73,12 @@ plt.show()
 {{< /codeblock >}}
 
 {{< br >}}{{</ br>}}
+
+{{< showimg >}}
+images/multi_minimize_risks.jpg
+{{< /showimg>}}
+
+{{< br >}}{{</ br>}}
 ### Maximize returns by given risks(variances)
 {{< codeblock >}}
 import numpy as np
@@ -128,8 +136,13 @@ plt.xlabel('Risk (Variance)')
 plt.ylabel('Return')
 plt.title('Efficient Frontier')
 plt.show()
-
 {{< /codeblock >}}
+
+{{< br >}}{{</ br>}}
+
+{{< showimg >}}
+images/multi_maximize_returns.jpg
+{{< /showimg>}}
 
 {{< br >}}{{</ br>}}
 ### Objective Function for Maximizing the Sharpe Ratio
@@ -177,3 +190,10 @@ print(f"Expected portfolio volatility: {portfolio_volatility}")
 print(f"Optimal Sharpe ratio: {-result.fun}")
 
 {{< /codeblock >}}
+
+--result--
+Optimal weights: [0.61715226 0.19945779 0.         0.18338995]
+Expected portfolio return: 0.5027272552587326
+Expected portfolio volatility: 0.19623102216731403
+Optimal Sharpe ratio: 2.5619152859025944
+
