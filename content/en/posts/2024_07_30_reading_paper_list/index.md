@@ -7,3 +7,5 @@ tags = ['finance', 'reinforcement learning']
 
 Deep Reinforcement Learning for Optimal Portfolio Allocation
 https://icaps23.icaps-conference.org/papers/finplan/FinPlan23_paper_4.pdf
+60 days look back in MVO
+MVO

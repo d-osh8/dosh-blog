@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on dosh blog</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on dosh blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 30 Jul 2024 00:00:01 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finance</title>
+      <link>http://localhost:1313/tags/finance/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:01 +0900</pubDate>
+      <guid>http://localhost:1313/tags/finance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>http://localhost:1313/tags/reinforcement-learning/</link>
+      <pubDate>Wed, 12 Jun 2024 01:24:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Functional Analysis</title>
+      <link>http://localhost:1313/tags/functional-analysis/</link>
+      <pubDate>Sun, 11 Feb 2024 01:24:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/functional-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matplotlib</title>
+      <link>http://localhost:1313/tags/matplotlib/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/matplotlib/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>English</title>
+      <link>http://localhost:1313/tags/english/</link>
+      <pubDate>Mon, 22 Jan 2024 00:15:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/english/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>http://localhost:1313/tags/git/</link>
+      <pubDate>Mon, 22 Jan 2024 00:07:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>http://localhost:1313/tags/github/</link>
+      <pubDate>Mon, 22 Jan 2024 00:07:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Polars</title>
+      <link>http://localhost:1313/tags/polars/</link>
+      <pubDate>Sun, 21 Jan 2024 01:11:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/polars/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>http://localhost:1313/tags/math/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RL</title>
+      <link>http://localhost:1313/tags/rl/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/rl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mac</title>
+      <link>http://localhost:1313/tags/mac/</link>
+      <pubDate>Wed, 10 Jan 2024 00:24:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/mac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Remote Desktop</title>
+      <link>http://localhost:1313/tags/remote-desktop/</link>
+      <pubDate>Wed, 10 Jan 2024 00:24:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/remote-desktop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>http://localhost:1313/tags/windows/</link>
+      <pubDate>Wed, 10 Jan 2024 00:24:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PC</title>
+      <link>http://localhost:1313/tags/pc/</link>
+      <pubDate>Wed, 10 Jan 2024 00:23:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/pc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Css</title>
+      <link>http://localhost:1313/tags/css/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Html</title>
+      <link>http://localhost:1313/tags/html/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:48 +0900</pubDate>
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

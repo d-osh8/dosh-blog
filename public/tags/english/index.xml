@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>English on dosh blog</title>
+    <link>http://localhost:1313/tags/english/</link>
+    <description>Recent content in English on dosh blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 22 Jan 2024 00:15:48 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Unveiling the Three Dimensions of &#34;Resolution&#34;</title>
+      <link>http://localhost:1313/posts/2024_01_16_resolution/</link>
+      <pubDate>Mon, 22 Jan 2024 00:15:48 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2024_01_16_resolution/</guid>
+      <description>Introduction The word &amp;ldquo;resolution&amp;rdquo; is a linguistic chameleon, effortlessly donning multiple meanings across various contexts. Far from a monolithic concept, &amp;ldquo;resolution&amp;rdquo; reveals itself as a versatile term with three distinct facets that encapsulate its diverse applications.
+1. Problem-Solving Prowess In its first guise, &amp;ldquo;resolution&amp;rdquo; serves as a beacon in the realm of conflict and challenges. Here, it embodies the art and science of finding solutions to problems. Whether navigating a dispute, addressing a complex issue, or unraveling a conundrum, resolution emerges as the guiding force that leads to clarity and harmony.</description>
+    </item>
+    <item>
+      <title>Daily English Discoveries and Practical Uses</title>
+      <link>http://localhost:1313/posts/2024_01_24_english_words/</link>
+      <pubDate>Thu, 04 Jan 2024 00:24:48 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2024_01_24_english_words/</guid>
+      <description>sanity Let&amp;rsquo;s perform a simple sanity check and compute the performance of the model using Root Squared Mean Error (RSME) metric. (mentally healthy)
+paramount As models grow in complexity, interpretability becomes paramount. (very important)
+drawback Too much uniformity can also be a drawback. (disadvantage)
+alleviate In this work, we propose mixup, a simple learning principle to alleviate these issues. (make less severe)
+maul help which side you&amp;rsquo;d mauled either way (physical attack)</description>
+    </item>
+  </channel>
+</rss>

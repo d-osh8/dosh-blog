@@ -1,0 +1,29 @@
+{{ $input := trim .Inner "\r\n" }}
+
+<!-- {{ with .Page.Resources.GetMatch $input }}
+   {{ $width := .Width }}
+   {{ $height := .Height }}
+
+   {{ $height := div $width 2 }}
+   {{ $wxh := printf "%dx%d Center" $width $height }}
+
+   {{ $croppedImage := .Fill $wxh }}
+   <img src="{{ $croppedImage.RelPermalink }}" alt="Cropped image">
+{{ end }} -->
+
+{{ with .Page.Resources.GetMatch $input }}
+
+{{ $width := .Width }}
+{{ $height := .Height }}
+
+{{ $wxh1 := printf "%dx%d Center q100" (mul $width 1) (mul $height 1) }}
+{{ $wxh2 := printf "%dx%d Center q100" (mul $width 2) (mul $height 2) }}
+{{ $wxh3 := printf "%dx%d Center q100" (mul $width 3) (mul $height 3) }}
+
+{{ $cover := .Fill $wxh1 }}
+{{ $cover_2x := .Fill $wxh2 }}
+{{ $cover_3x := .Fill $wxh3 }}
+
+<img src="{{ $cover.Permalink }}"  srcset="{{ $cover_2x.Permalink }} 2x, {{ $cover_3x.Permalink }} 3x" >
+
+{{ end }}

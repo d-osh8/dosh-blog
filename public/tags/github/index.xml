@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on dosh blog</title>
+    <link>http://localhost:1313/tags/github/</link>
+    <description>Recent content in Github on dosh blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 22 Jan 2024 00:07:48 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to delete the contributor and its history from Github</title>
+      <link>http://localhost:1313/posts/2024_01_26_git_remove_contributor/</link>
+      <pubDate>Mon, 22 Jan 2024 00:07:48 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2024_01_26_git_remove_contributor/</guid>
+      <description>Change the author of your local repository git rebase or when you wish to make changes to only the last commit git commit --amend --author=&amp;#34;New Author Name &amp;lt;new.email@example.com&amp;gt;&amp;#34; Copy Push to a remote repository git push origin main --force Copy Rename the default branch on Github Visit your GitHub repository. Change the default branch name from &amp;ldquo;main&amp;rdquo; to &amp;ldquo;main2&amp;rdquo;. After making the change, revert the default branch name back to &amp;ldquo;main&amp;rdquo;.</description>
+    </item>
+  </channel>
+</rss>

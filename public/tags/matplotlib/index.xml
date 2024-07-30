@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matplotlib on dosh blog</title>
+    <link>http://localhost:1313/tags/matplotlib/</link>
+    <description>Recent content in Matplotlib on dosh blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:48 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/matplotlib/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mplfinance tips</title>
+      <link>http://localhost:1313/posts/2024_02_01_mpf/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:48 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2024_02_01_mpf/</guid>
+      <description>Plotting Financial Data with Market Color Overrides import polars as pl import mplfinance as mpf df = pl.read_csv(&amp;#34;df.csv&amp;#34;, try_parse_dates=True) df = df.to_pandas() df = df.set_index(&amp;#34;datetime&amp;#34;) # Plot the data without market color overrides mpf.plot(df,volume=False,type=&amp;#39;candle&amp;#39;,style=&amp;#39;yahoo&amp;#39;,figscale=1.4) # Initialize the MCOverrides column with the base market colors (black and white) mc = mpf.make_marketcolors(base_mpf_style=&amp;#39;classic&amp;#39;) # Get the target column target = df[&amp;#34;target&amp;#34;] # Initialize the column with all values set to `mc` df[&amp;#39;MCOverrides&amp;#39;] = [mc] * len(df) # Override the market colors based on the target value df.</description>
+    </item>
+  </channel>
+</rss>

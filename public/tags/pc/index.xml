@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PC on dosh blog</title>
+    <link>http://localhost:1313/tags/pc/</link>
+    <description>Recent content in PC on dosh blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 10 Jan 2024 00:23:48 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to set msi mystic light rgb</title>
+      <link>http://localhost:1313/posts/2023_12_30_msi_color/</link>
+      <pubDate>Wed, 10 Jan 2024 00:23:48 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2023_12_30_msi_color/</guid>
+      <description>If you use msi as your computer, you can change the color setting as follow it.
+Download MSI Center https://www.msi.com/Landing/mystic-light-rgb-gaming-pc/download
+Install Mystic Light from feature set You can select color and style as you like. Of course, you can always turn off light.</description>
+    </item>
+  </channel>
+</rss>

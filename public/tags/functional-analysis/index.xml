@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Functional Analysis on dosh blog</title>
+    <link>http://localhost:1313/tags/functional-analysis/</link>
+    <description>Recent content in Functional Analysis on dosh blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 11 Feb 2024 01:24:48 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/functional-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The convergence of the iteration of optimal bellman equation</title>
+      <link>http://localhost:1313/posts/2024_01_15_optimal_bellman_equation/</link>
+      <pubDate>Sun, 11 Feb 2024 01:24:48 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2024_01_15_optimal_bellman_equation/</guid>
+      <description>Bellman equation plays a vital role in reinforcement learning. Iterative Policy Evaluation $$$$ $$ V_{k&amp;#43;1}(s) = \sum_{a, s&amp;#39;} \pi(a|s) p(s&amp;#39;|s,a) \{ r(s, a, s&amp;#39;) &amp;#43; \gamma V_{k}(s&amp;#39;) \}$$ $$$$ \begin{flalign} &amp;amp;V_{k}:\text{Value function after } k \text{ th iteration.}\ &amp;amp; \end{flalign} \begin{flalign} &amp;amp; \pi : \text{Policy. The probability of performing action } a \text{ under state } s. \ &amp;amp; \end{flalign} \begin{flalign} &amp;amp; p: \text{Probability of the next state } s&amp;#39; \text{ under state } s \text{ and action } a.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on dosh blog</title>
+    <link>http://localhost:1313/tags/windows/</link>
+    <description>Recent content in Windows on dosh blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 10 Jan 2024 00:24:48 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Japanese keyboard setting when using Remote Desktop from Mac</title>
+      <link>http://localhost:1313/posts/2024_01_19_remote_desktop_mac_keyboard/</link>
+      <pubDate>Wed, 10 Jan 2024 00:24:48 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2024_01_19_remote_desktop_mac_keyboard/</guid>
+      <description>Open Registory Editor
+HKEY_LOCAL_MACHINE &amp;gt; SYSTEM &amp;gt; CurrentControlSet &amp;gt; Control &amp;gt; Keyboard &amp;gt; Layouts &amp;gt; 00000411
+Change the LayoutFile from &amp;ldquo;KBDJPN.DLL&amp;rdquo; to &amp;ldquo;kbd106.dll&amp;rdquo;
+Reference https://hirogura.com/2023/02/14/post-61264/</description>
+    </item>
+  </channel>
+</rss>
